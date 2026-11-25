@@ -1,6 +1,6 @@
 const Livro = require('../Models/livros')
 const axios = require('axios')
-const LIMITE = 20;
+const LIMITE = 2;
 
 exports.listar = async (req, res) => {
     try {
